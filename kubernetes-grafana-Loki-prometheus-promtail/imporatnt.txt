@@ -1,0 +1,5 @@
+if grafana password is not working Login to following pod
+
+prom-grafana-xxxx/grfana POD and reseat the admin password 
+
+$grafana-cli --homepath "/usr/share/grafana" admin reset-admin-password <new password>

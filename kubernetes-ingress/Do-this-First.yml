@@ -1,0 +1,9 @@
+Add Traefik Labs chart repository to Helm:
+helm repo add traefik https://traefik.github.io/charts
+
+
+You can update the chart repository by running:
+helm repo update
+
+And install it with the helm command line:
+helm install traefik traefik/traefik
